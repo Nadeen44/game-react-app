@@ -12,4 +12,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <App />
     </ChakraProvider>
   </React.StrictMode>
+  //theme config
 );

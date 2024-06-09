@@ -15,6 +15,6 @@ function App() {
       <GridItem area='main'><GameGrid/></GridItem>
     </Grid>
   );
-}
+} //responsive layout
 
 export default App;
