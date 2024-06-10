@@ -7,7 +7,7 @@ interface Props {
 
 export const GameCradContainer = ({ children }: Props) => {
   return (
-    <Box width={"350px"} borderRadius={"10px"} overflow={"hidden"}>
+    <Box width={'100%'} borderRadius={"10px"} overflow={"hidden"}>
       {children}{" "}
     </Box>
   );
