@@ -1,7 +1,7 @@
 import useGenres from "../hooks/useGenres";
 
 export const GenreList = () => {
-  const { genres, error, isLoading } = useGenres();
+  const { data: genres, error, isLoading } = useGenres();
 
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
