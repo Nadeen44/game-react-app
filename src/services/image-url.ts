@@ -4,6 +4,8 @@
  * @returns {string} - The cropped image URL.
  */
 const getCroppedImageUrl = (url: string): string => {
+if (!url) return  '';
+
     const target = "/media/";  // Adjust the target if necessary
     const targetIndex = url.indexOf(target);
   
