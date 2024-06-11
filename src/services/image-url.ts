@@ -1,10 +1,12 @@
+import noImage from '../assets/no-image-placeholder.webp'
+
 /**
  * Function to get a cropped image URL.
  * @param {string} url - The original image URL.
  * @returns {string} - The cropped image URL.
  */
 const getCroppedImageUrl = (url: string): string => {
-if (!url) return  '';
+if (!url) return  noImage;
 
     const target = "/media/";  // Adjust the target if necessary
     const targetIndex = url.indexOf(target);
