@@ -17,6 +17,8 @@ export interface Props {
 const GenreList = ({ selectedGenre,onSelectGenre }: Props) => {
   const { data: genres, error, isLoading } = useGenres();
 
+  
+
   if (isLoading) {
     return (
       <List>
